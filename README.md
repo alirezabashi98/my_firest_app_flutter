@@ -55,3 +55,20 @@ void main() {
 
 }
 ```
+
+Adding a style to the text is as follows: we call the style text attribute and its values as follows:
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+
+  runApp(
+    Center(
+      child: Text("Hello Flutter!",textDirection: TextDirection.ltr,
+        style: TextStyle(fontSize: 15,color: Colors.blueAccent,fontWeight: FontWeight.bold),),
+    )
+  );
+
+}
+```

@@ -52,3 +52,20 @@ void main() {
 
 }
 ```
+
+اضافه کردن استایل به متن به شکل زیر هست که اتربیوت تکست استایل صدا میزنیم و مقادیرش میدیم به شکل زیر
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+
+  runApp(
+    Center(
+      child: Text("Hello Flutter!",textDirection: TextDirection.ltr,
+        style: TextStyle(fontSize: 15,color: Colors.blueAccent,fontWeight: FontWeight.bold),),
+    )
+  );
+
+}
+```
