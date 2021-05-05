@@ -34,3 +34,21 @@ void main() {
 
 }
 ```
+
+خب برای وسط چین کردن و نمایش متن در مرکز صفحه از متد سنتر استفاده میکنیم به شکل زیر
+و در متد ستنر یه بچه تعریف میکنیم که همون متنمون هستش
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+
+  runApp(
+    Center(
+      child: Text("Hello Flutter!",textDirection: TextDirection.ltr,),
+    )
+  );
+
+}
+```
